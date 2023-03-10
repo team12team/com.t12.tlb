@@ -12,11 +12,11 @@ import org.junit.runner.RunWith;
         },
         features = "src/test/resources/features" ,
         glue = "stepdefinitions" ,
-        tags= "@run",
+        tags= "@runHakan",
         dryRun = false
 )
 
-public class Runner {
+public class RunnerHakan {
     /*
         Cucumber'da Runner class'i bos bir class'tir
         Runner class'ini diger class'lardan farkli kilan

@@ -31,6 +31,58 @@ public class US_024 {
     @FindBy (xpath = "(//a[@class='position-relative d-flex align-items-center'])[10]")
     public WebElement notification;
 
+    @FindBy (xpath = "(//span[@class='font_14 f_w_500 mute_text'])[2]")
+    public WebElement title;
+
+    @FindBy (xpath = "(//span[@class='font_14 f_w_500 mute_text'])[3]")
+    public WebElement date;
+
+    @FindBy (xpath = "//a[@class='amaz_badge_btn4 text-nowrap text-capitalize text-center']")
+    public WebElement view;
+
+    @FindBy (xpath = "//a[@class='amaz_primary_btn style7 text-nowrap radius_3px']")
+    public WebElement setting;
+
+    @FindBy (xpath = "(//span[@class='checkmark mr_15'])[1]")
+    public WebElement offlineRecharge;
+
+    @FindBy (xpath = "(//span[@class='checkmark mr_15'])[2]")
+    public WebElement orderConfirmation;
+
+    @FindBy (xpath = "(//span[@class='checkmark mr_15'])[3]")
+    public WebElement ordered;
+
+    @FindBy (xpath = "(//span[@class='checkmark mr_15'])[4]")
+    public WebElement ordered1;
+
+    @FindBy (xpath = "(//span[@class='checkmark mr_15'])[5]")
+    public WebElement processing;
+
+    @FindBy (xpath = "(//span[@class='checkmark mr_15'])[6]")
+    public WebElement processing1;
+
+    @FindBy (xpath = "(//span[@class='checkmark mr_15'])[7]")
+    public WebElement shipped;
+
+    @FindBy (xpath = "(//span[@class='checkmark mr_15'])[8]")
+    public WebElement shipped1;
+
+    @FindBy (xpath = "(//span[@class='checkmark mr_15'])[9]")
+    public WebElement recieved;
+
+    @FindBy (xpath = "(//span[@class='checkmark mr_15'])[10]")
+    public WebElement recieved1;
+
+    @FindBy (xpath = "(//span[@class='checkmark mr_15'])[11]")
+    public WebElement delivered;
+
+    @FindBy (xpath = "(//span[@class='checkmark mr_15'])[12]")
+    public WebElement delivered1;
+
+    @FindBy (xpath = "(//span[@class='checkmark mr_15'])[13]")
+    public WebElement newOrder;
+
+
 
 
 }

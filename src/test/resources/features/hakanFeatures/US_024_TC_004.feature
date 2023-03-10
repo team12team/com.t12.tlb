@@ -1,7 +1,6 @@
-Feature: US_024_TC_001 Kullanici Trendlifebuy Anasyafasına gider
+Feature: US_024_TC_004 View sayfasına gidilmelidir.
 
-
-  Scenario: US_024_TC_001_Kullanici Trendlifebuy Anasyafasına gider
+  Scenario: US_024_TC_004 View sayfasına gidilmelidir.
 
     Given Kullanici trendlifebuy sayfasina gider
     Then  Login butonunu tiklar
@@ -10,5 +9,5 @@ Feature: US_024_TC_001 Kullanici Trendlifebuy Anasyafasına gider
     And   Sign in butonunu tiklar
     Then  Dashboard butonu tiklanir
     Then  Notification butonu tiklanir
-    Then  Notifications yazisinin gorundugu dogrulanir
-    And   Sayfayi kapatir
+    Then  View sekmesi tiklanir
+    Then  İlgili sayfaya gittigi dogrulanir
