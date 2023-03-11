@@ -18,6 +18,7 @@ public class US_024_TC_001 {
     }
     @Then("Login butonunu tiklar")
     public void login_butonunu_tiklar() {
+        us_024.cookies.click();
         us_024.login.click();
     }
     @Then("Email adresini yazar")

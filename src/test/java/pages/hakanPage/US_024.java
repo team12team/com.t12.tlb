@@ -13,6 +13,9 @@ public class US_024 {
 
     }
 
+    @FindBy(xpath = "(//div[@class='close_modal'])[1]")
+    public WebElement cookies;
+
     @FindBy(xpath = "(//a[@href='https://qa.trendlifebuy.com/login'])[1]")
     public WebElement login;
 
