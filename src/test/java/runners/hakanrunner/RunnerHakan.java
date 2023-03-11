@@ -1,4 +1,4 @@
-package runners;
+package runners.hakanrunner;
 
 import io.cucumber.junit.Cucumber;
 import io.cucumber.junit.CucumberOptions;
@@ -12,11 +12,19 @@ import org.junit.runner.RunWith;
         },
         features = "src/test/resources/features" ,
         glue = "stepdefinitions" ,
+<<<<<<<< HEAD:src/test/java/runners/RunnerDuygu.java
         tags= "@dubu",
         dryRun = false
 )
 
 public class RunnerDuygu {
+========
+        tags= "@runHakan",
+        dryRun = false
+)
+
+public class RunnerHakan {
+>>>>>>>> main:src/test/java/runners/RunnerHakan.java
     /*
         Cucumber'da Runner class'i bos bir class'tir
         Runner class'ini diger class'lardan farkli kilan
