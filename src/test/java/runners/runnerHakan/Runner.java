@@ -1,4 +1,4 @@
-package runners;
+package runners.runnerHakan;
 
 import io.cucumber.junit.Cucumber;
 import io.cucumber.junit.CucumberOptions;
@@ -16,7 +16,7 @@ import org.junit.runner.RunWith;
         dryRun = false
 )
 
-public class RunnerHakan {
+public class Runner {
     /*
         Cucumber'da Runner class'i bos bir class'tir
         Runner class'ini diger class'lardan farkli kilan
